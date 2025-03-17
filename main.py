@@ -20,5 +20,5 @@ response = llm.predict_and_call([add_tool,multiply_tool],prompt,None,True)
 
 print(response)
 
-def hello():
-    print("Marcellous")
+print("Hey, how are you")
+
