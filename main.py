@@ -19,3 +19,6 @@ prompt = "multiply 4 and 5 together"
 response = llm.predict_and_call([add_tool,multiply_tool],prompt,None,True)
 
 print(response)
+
+def hello():
+    print("Marcellous")
